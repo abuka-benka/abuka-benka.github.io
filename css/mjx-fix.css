@@ -1,0 +1,20 @@
+.mjx-container {
+  min-width: 0 !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+}
+
+.MathJax_Display {
+  overflow-x: auto !important;
+  text-align: center !important;
+}
+
+.mjx-container {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.MathJax_Display {
+  background: transparent !important;
+  border: none !important;
+}
