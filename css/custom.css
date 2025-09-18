@@ -1,0 +1,29 @@
+#post {
+  background: rgba(255, 255, 255, 0.6) !important; /* 调整透明度 0~1 */
+  box-shadow: none !important;                        /* 去掉阴影 */
+  border-radius: 12px;                                /* 可选圆角 */
+}
+.post-body {
+  background: transparent !important; /* 内层不加任何背景 */
+}
+#post article.post-content {
+  background: transparent !important; /* 外层半透明 */
+}
+
+/* 文字悬浮层，保持可读性 */
+.post-text-overlay {
+  position: relative;
+  z-index: 2;
+  color: rgba(0, 0, 0, 1); /* 文字颜色，可调 */
+  padding: 1em;              /* 保留内边距 */
+}
+
+/* 图片或代码块背景透明，防止遮挡背景 */
+.post-text-overlay img,
+.post-text-overlay pre {
+  background: transparent !important;
+}
+
+.card {
+    width: 150px !important; /* 改成你想要的宽度 */
+}
